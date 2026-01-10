@@ -1,0 +1,193 @@
+@font-face {
+  font-family: 'M42_FLIGHT 721';
+  src: url('../fonts/m42.TTF') format('truetype');
+}
+
+@font-face {
+  font-family:'Videotype';
+  src: url('../fonts/videotype.ttf') format('truetype');
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar {
+    background-color: #000000;
+    padding: 0 30px;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-family: 'M42_FLIGHT 721', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-top: 0.7rem;
+    padding: 30px 30px;
+}
+
+.navbar-item {
+    padding: 0 30px;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-family: 'VT323', monospace;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* Digital Section */
+
+#digital {
+    background-color: #ffffff;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.digital-header {
+    color: #000000;
+    font-family: 'M42_FLIGHT 721', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 4%;
+    text-align: center;
+    padding: 0 8%;
+}
+
+.section-divider {
+    border: 0;
+    height: 2px;
+    background-color: #000000;
+    width: 82%;
+    margin-bottom: 5rem;
+}
+
+.digital-img {
+    width: 100%; 
+    display: block;
+}
+
+.digital-subtext {
+    font-size: 2rem;
+    color: #000000;
+    margin-top: 1.5rem;
+    margin-bottom: 4%;
+    text-align: center;
+    font-family: 'VT323', monospace;
+}
+
+.custom-82-container {
+    width: 82%; 
+    margin: 0 auto;
+}
+
+
+/* Traditional Button */
+
+#button {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.trad-button {
+    background-color: #000000;
+    color: white;
+    font-family: 'VT323', monospace;
+    padding: 10px 30px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 2rem;
+}
+
+.trad-button:hover {
+    background-color: #242424;
+    border: none;
+}
+
+.trad-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Footer Section */
+
+#footer {
+    background-color: #000000;
+    width: 100%;
+    padding: 60px 0 30px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid #ffffff;
+    width: 500px;
+    margin: 10px auto;
+}
+
+.footer-text {
+    font-family: 'Questrial', sans-serif;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.8;
+}
+
+.back-to-top {
+    margin-top: 30px;
+    font-family: 'M42_FLIGHT 721', sans-serif;
+    color: #fff;
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.back-to-top:hover {
+    color: #ffffff;
+    text-shadow: 
+        0 0 10px #ffffff;
+}
+
+@media (max-width: 1320px) {
+    .navbar-brand {
+        padding: 15px 10px; 
+        font-size: 1rem;
+    }
+    .nav-link {
+        padding: 5px 15px;
+        font-size: 1.2rem;
+    }
+    #digital {
+        padding-top: 15%;
+    }
+    .digital-header {
+        font-size: 1.5rem;
+    }
+    .digital-subtext {
+        font-size: 1.2rem;
+    }
+    .trad-button {
+        font-size: 1.5rem;
+        padding: 10px 25px;
+    }
+}
